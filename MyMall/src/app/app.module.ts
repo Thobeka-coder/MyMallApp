@@ -9,8 +9,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { HomeComponent } from './home/home.component';
-//import { ServicesComponent } from './services/services.component';
-//import { AboutUsComponent } from './about-us/about-us.component';
 import { LoginComponent } from './login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
@@ -19,20 +17,18 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ServicesComponent } from './services/services.component';
 import { PageFooterComponent } from './page-footer/page-footer.component';
-//import { PageFooterComponent } from './page-footer/page-footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     HomeComponent,
-    //ServicesComponent,
-    //AboutUsComponent,
+    ServicesComponent,
+    AboutUsComponent,
     LoginComponent,
     AboutUsComponent,
     ServicesComponent,
     PageFooterComponent,
-    //PageFooterComponent,
     //UserComponent
   ],
   imports: [

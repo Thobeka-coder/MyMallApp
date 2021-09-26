@@ -1,0 +1,13 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    height: 100%; 
+    margin: 0; 
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    
+    background-image: url('C:\Users\Admin\OneDrive\Desktop\Coding Folders\MyMallApp\MyMall\src\assets\AboutTheMall.png');
+    
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
