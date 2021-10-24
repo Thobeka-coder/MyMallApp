@@ -12,11 +12,11 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatCardModule } from '@angular/material/card';
-//import { UserComponent } from './user/user.component';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ServicesComponent } from './services/services.component';
 import { PageFooterComponent } from './page-footer/page-footer.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +29,8 @@ import { PageFooterComponent } from './page-footer/page-footer.component';
     AboutUsComponent,
     ServicesComponent,
     PageFooterComponent,
-    //UserComponent
+    SearchComponent,
+   
   ],
   imports: [
     BrowserModule,
